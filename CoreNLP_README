@@ -1,0 +1,11 @@
+Para rodar o CoreNLP da Stanford, precisa antes executar
+
+sudo chmod 777 corenlp.sh
+
+na pasta do CoreNLP. Caso contrário, vai dar erro de permissão de execução (algo como "bash: corenlp.sh: Permissão negada").
+
+O comando de execução básico é:
+
+./corenlp.sh -file arquivo_de_entrada -outputFormat conll
+
+O programa vai automaticamente criar um arquivo_de_entrada.conll na mesma pasta de onde foi chamado.

@@ -1,0 +1,12 @@
+Code: Python 3.5.2
+
+Modules: NLTK (with wordnet corpus installed), requests, justext, subprocess, re, time, webbrowser
+
+Directory structure:
+./data/
+./output/
+./html/
+
+
+Systems called outside Python: Stanford CoreNLP
+	The CoreNLP system must be present in the system, and the absolute path to the corenlp.sh file must be set in the 'import_parse.py' file
